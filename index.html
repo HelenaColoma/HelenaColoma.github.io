@@ -12,16 +12,18 @@
     <style>
         h1, h2{font-family:'Modak', cursive;}
         main{font-family:'Cabin', sans-serif;}
-        ul{column-count:2;column-gap:8vw;}
         li>a{color:#17a2b8;font-size:1.2rem;display:inline-block;padding:7px;}
         li>a:hover{color:red}
         #cta{display:block;width:fit-content;color:#fff;padding:10px 25px;margin:30px auto 0;}
         #cta:hover{text-decoration: none;}
         
         @media (min-width: 992px) {
-            ul{column-count:3;column-gap:8vw;}
+            ul{column-count:3;column-gap:8vw}
         }
-
+        
+        @media (max-width: 991px) {
+            ul{column-count:2;column-gap:8vw;}
+        }
     </style>
 </head>
 <body>
